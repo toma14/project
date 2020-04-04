@@ -1,0 +1,47 @@
+body,html{
+ margin:0;
+ padding:0;
+}
+.li1{
+    list-style: none;
+    line-height: 60px;
+    margin: 5px;
+    display:inline-block;
+    margin-left: auto;
+    
+}
+nav {
+    height: 60px;
+    width: 1000px;
+    background-color:#ffffff;
+    position: fixed;
+    
+}
+.li2{
+    list-style: none;
+    line-height: 60px;
+    margin: 5px;
+    display:inline-block;
+    margin-left: auto;
+}   
+.a1 {
+    text-decoration: none;
+    color: blue;
+}
+.a2{
+    text-decoration: none;
+    color: gray; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+.mydiv{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    padding:0;
+    margin:0;
+}
